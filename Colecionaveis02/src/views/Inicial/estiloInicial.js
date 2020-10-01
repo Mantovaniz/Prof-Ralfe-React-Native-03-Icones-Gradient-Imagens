@@ -6,7 +6,6 @@ const estiloInicial = StyleSheet.create({
       justifyContent: 'center',
       alignItems: 'center',     
    },
-<<<<<<< HEAD
    header: {
        height: 40,
        width: '100%',
@@ -32,8 +31,6 @@ const estiloInicial = StyleSheet.create({
        borderWidth: 1,
        borderColor: '#14417b',
    },
-=======
->>>>>>> 2787e41a208a81448f297e8dfa74848da42054f2
    borda: {   
       backgroundColor: '#081a31',  
       width: '80%',
@@ -63,10 +60,6 @@ const estiloInicial = StyleSheet.create({
    botaoTexto: {
       fontSize: 18,
       color: '#FFFFFF',
-<<<<<<< HEAD
-=======
-      fontWeight: 'bold'
->>>>>>> 2787e41a208a81448f297e8dfa74848da42054f2
    },
 });
 

@@ -1,0 +1,67 @@
+Arguments: 
+  /home/gitpod/.nvm/versions/node/v12.18.4/bin/node /home/gitpod/.nvm/versions/node/v12.18.4/bin/yarn start
+
+PATH: 
+  /home/gitpod/.nvm/versions/node/v12.18.4/bin:/home/gitpod/.cargo/bin:/home/gitpod/.pyenv/plugins/pyenv-virtualenv/shims:/home/gitpod/.pyenv/shims:/workspace/.cargo/bin:/workspace/.pip-modules/bin:/workspace/.rvm/bin:/home/gitpod/.cargo/bin:/home/gitpod/.sdkman/candidates/maven/current/bin:/home/gitpod/.sdkman/candidates/java/current/bin:/home/gitpod/.sdkman/candidates/gradle/current/bin:/home/gitpod/.cargo/bin:/home/gitpod/.rvm/gems/ruby-2.6.6/bin:/home/gitpod/.rvm/gems/ruby-2.6.6@global/bin:/home/gitpod/.rvm/rubies/ruby-2.6.6/bin:/home/gitpod/.pyenv/plugins/pyenv-virtualenv/shims:/home/gitpod/.pyenv/shims:/workspace/.cargo/bin:/workspace/.pip-modules/bin:/workspace/.rvm/bin:/home/gitpod/.pyenv/bin:/home/gitpod/.pyenv/shims:/workspace/go/bin:/home/gitpod/go/bin:/home/gitpod/go-packages/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/linuxbrew/.linuxbrew/bin:/home/linuxbrew/.linuxbrew/sbin/:/home/gitpod/.nvm/versions/node/v12.18.4/bin:/home/gitpod/.rvm/bin:/home/gitpod/.rvm/bin:/home/gitpod/.rvm/bin
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  12.18.4
+
+Platform: 
+  linux x64
+
+Trace: 
+  SyntaxError: /workspace/Prof-Ralfe-React-Native-03-Icones-Gradient-Imagens/Colecionaveis02/package.json: Unexpected token < in JSON at position 464
+      at JSON.parse (<anonymous>)
+      at /home/gitpod/.nvm/versions/node/v12.18.4/lib/node_modules/yarn/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/home/gitpod/.nvm/versions/node/v12.18.4/lib/node_modules/yarn/lib/cli.js:310:30)
+      at /home/gitpod/.nvm/versions/node/v12.18.4/lib/node_modules/yarn/lib/cli.js:321:13
+
+npm manifest: 
+  {
+    "main": "node_modules/expo/AppEntry.js",
+    "scripts": {
+      "start": "expo start",
+      "android": "expo start --android",
+      "ios": "expo start --ios",
+      "web": "expo start --web",
+      "eject": "expo eject"
+    },
+    "dependencies": {
+      "@react-native-community/masked-view": "0.1.10",
+      "@react-navigation/bottom-tabs": "^5.8.0",
+      "@react-navigation/drawer": "^5.9.0",
+      "@react-navigation/native": "^5.7.3",
+      "@react-navigation/stack": "^5.9.0",
+  <<<<<<< HEAD
+      "expo": "^39.0.3",
+      "expo-linear-gradient": "~8.3.0",
+  =======
+      "expo": "~38.0.8",
+  >>>>>>> 2787e41a208a81448f297e8dfa74848da42054f2
+      "expo-status-bar": "^1.0.2",
+      "react": "~16.11.0",
+      "react-dom": "~16.11.0",
+      "react-native": "https://github.com/expo/react-native/archive/sdk-38.0.2.tar.gz",
+      "react-native-gesture-handler": "~1.6.0",
+      "react-native-reanimated": "~1.9.0",
+      "react-native-safe-area-context": "~3.0.7",
+      "react-native-screens": "~2.9.0",
+      "react-native-web": "~0.11.7"
+    },
+    "devDependencies": {
+      "@babel/core": "^7.8.6",
+      "babel-preset-expo": "~8.1.0"
+    },
+    "private": true
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

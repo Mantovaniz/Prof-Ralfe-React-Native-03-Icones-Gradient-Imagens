@@ -2,7 +2,6 @@ import { StyleSheet } from 'react-native';
 
 const estiloLogin = StyleSheet.create({
    container: {   
-<<<<<<< HEAD
       flex: 1, 
    },
    borda: {   
@@ -44,17 +43,6 @@ const estiloLogin = StyleSheet.create({
        margin: 10,
        borderRadius: 5,
        alignItems: 'center',
-=======
-      flex: 1,
-      justifyContent: 'center',
-      alignItems: 'center',     
-   },
-   borda: {   
-      backgroundColor: '#081a31',  
-      width: '80%',
-      height: 230,
-      borderRadius: 10,
->>>>>>> 2787e41a208a81448f297e8dfa74848da42054f2
    },
    texto: {
       fontSize: 20,
@@ -63,7 +51,6 @@ const estiloLogin = StyleSheet.create({
       textAlign: "center",
       padding: 10
    },
-<<<<<<< HEAD
    botaoLinearGradient: {
        flexDirection: 'rox',
        justifyContent: 'center',
@@ -82,18 +69,6 @@ const estiloLogin = StyleSheet.create({
        paddingLeft: 15,
        backgroundColor: 'transparent',
    },
-=======
-   campo: {
-      backgroundColor: '#dcedff',
-      fontSize: 18,
-      marginLeft: 40,
-      marginRight: 40,    
-      marginTop: 5,
-      borderRadius: 5,
-      height: 40,
-      paddingLeft: 10
-    },
->>>>>>> 2787e41a208a81448f297e8dfa74848da42054f2
    botaoContainer: {
       marginTop: 20,
       marginBottom: 20,
