@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+<<<<<<< HEAD
 import { Text, View, TouchableOpacity, ImageBackground } from 'react-native';
 import estiloInicial from './estiloInicial';
 import { AntDesign } from '@expo/vector-icons';
@@ -14,6 +15,13 @@ function Inicial({ navigation }) {
         }      
     }
 
+=======
+import { Text, View, TouchableOpacity } from 'react-native';
+import estiloInicial from './estiloInicial';
+
+function Inicial({ navigation }) {
+
+>>>>>>> 2787e41a208a81448f297e8dfa74848da42054f2
     const abrirColecao = () => {
         navigation.navigate('Colecao')
     }
@@ -24,6 +32,7 @@ function Inicial({ navigation }) {
     
     return (
         <View style={estiloInicial.container}>
+<<<<<<< HEAD
 
                 <View style={estiloInicial.header}>
                     <TouchableOpacity onPress={exibirDrawer}>
@@ -48,6 +57,21 @@ function Inicial({ navigation }) {
                 </TouchableOpacity>
 
                 </ImageBackground>
+=======
+            <View style={estiloInicial.borda}>
+
+                <Text style={estiloInicial.texto}>Inicial</Text>
+
+                <TouchableOpacity style={estiloInicial.botaoContainer} onPress={abrirColecao}>
+                    <Text style={estiloInicial.botaoTexto}>Coleção</Text>
+                </TouchableOpacity>
+
+                <TouchableOpacity style={estiloInicial.botaoContainer} onPress={abrirItem}>
+                    <Text style={estiloInicial.botaoTexto}>Item</Text>
+                </TouchableOpacity>
+
+            </View>
+>>>>>>> 2787e41a208a81448f297e8dfa74848da42054f2
         </View>
     )
 }

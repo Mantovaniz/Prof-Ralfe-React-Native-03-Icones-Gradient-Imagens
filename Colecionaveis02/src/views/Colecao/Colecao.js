@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React, { useState } from 'react';
 import { View, FlatList, TouchableOpacity, Text } from 'react-native';
 import estiloColecao from './estiloColecao';
@@ -43,12 +44,21 @@ function Colecao({ navigation }) {
     ]);
     
     
+=======
+import React from 'react';
+import { Text, View, TouchableOpacity } from 'react-native';
+import estiloColecao from './estiloColecao';
+
+function Colecao({ navigation, route }) {
+
+>>>>>>> 2787e41a208a81448f297e8dfa74848da42054f2
     const voltar = () => {
         navigation.navigate('Inicial')
     }
     
     return (
         <View style={estiloColecao.container}>
+<<<<<<< HEAD
 
             <View style={estiloColecao.header}> 
                 <TouchableOpacity onPress={voltar}>
@@ -64,6 +74,17 @@ function Colecao({ navigation }) {
                 data={colecao}
                 renderItem={ ({item}) => <Lista data={item} /> }
             />
+=======
+            <View style={estiloColecao.borda}>
+
+                <Text style={estiloColecao.texto}>Coleção</Text>
+
+                <TouchableOpacity style={estiloColecao.botaoContainer} onPress={voltar}>
+                    <Text style={estiloColecao.botaoTexto}>Voltar</Text>
+                </TouchableOpacity>
+
+            </View>
+>>>>>>> 2787e41a208a81448f297e8dfa74848da42054f2
         </View>
     )
 }
